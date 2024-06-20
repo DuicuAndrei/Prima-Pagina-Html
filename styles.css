@@ -1,5 +1,5 @@
 .style {
-  background-image: url("istockphoto-1407063872-1024x1024.jpg");
+  background-image: url("image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  padding-top: 60px; /* Pentru a evita suprapunerea cu navigatorul fix */
+  padding-top: 60px;
 }
 .navigation {
   list-style: none;
