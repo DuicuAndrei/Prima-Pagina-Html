@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <title>Taguri</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body class="style">
+    <div class="div"><h1>Prima pagina HTML</h1></div>
+    <hr />
+    <ul class="navigation a">
+      <li><a href="Acasa.html">Acasa</a></li>
+      <li><a href="Taguri.html">Taguri</a></li>
+      <li><a href="Tabele.html">Tabele</a></li>
+      <li><a href="GitHub.html">GitHub</a></li>
+      <li><a href="Despre.html">Despre </a></li>
+      <li><a href="Terminal.html">Terminal</a></li>
+    </ul>
+    <ul class="nav a">
+      <li><a href="Tabele Simple.html">Tabele Simple</a></li>
+      <li><a href="Tabele Avansate.html">Tabele Avansate</a></li>
+    </ul>
+
+    <div class="container">
+      <h2>Tabele Avansate</h2>
+
+      <h3>1. Îmbinarea celulelor</h3>
+      <p>
+        Celulele pot fi îmbinate pe orizontală folosind atributul
+        <code>colspan</code> și pe verticală folosind atributul
+        <code>rowspan</code>.
+      </p>
+      <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Nume&lt;/th&gt;
+        &lt;th colspan="2"&gt;Detalii&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Ion&lt;/td&gt;
+        &lt;td&gt;25&lt;/td&gt;
+        &lt;td&gt;Programator&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Maria&lt;/td&gt;
+        &lt;td&gt;30&lt;/td&gt;
+        &lt;td&gt;Designer&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+
+      <table>
+        <tr>
+          <th>Nume</th>
+          <th colspan="2">Detalii</th>
+        </tr>
+        <tr>
+          <td>Ion</td>
+          <td>25</td>
+          <td>Programator</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>30</td>
+          <td>Designer</td>
+        </tr>
+      </table>
+
+      <h3>2. Adăugarea unei legende pentru tabel</h3>
+      <p>
+        Legendele sunt adăugate folosind elementul <code>&lt;caption&gt;</code>.
+      </p>
+      <pre><code>&lt;table&gt;
+    &lt;caption&gt;Lista Angajaților&lt;/caption&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Nume&lt;/th&gt;
+        &lt;th&gt;Vârstă&lt;/th&gt;
+        &lt;th&gt;Ocupație&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Ion&lt;/td&gt;
+        &lt;td&gt;25&lt;/td&gt;
+        &lt;td&gt;Programator&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Maria&lt;/td&gt;
+        &lt;td&gt;30&lt;/td&gt;
+        &lt;td&gt;Designer&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+
+      <table>
+        <caption>
+          Lista Angajaților
+        </caption>
+        <tr>
+          <th>Nume</th>
+          <th>Vârstă</th>
+          <th>Ocupație</th>
+        </tr>
+        <tr>
+          <td>Ion</td>
+          <td>25</td>
+          <td>Programator</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>30</td>
+          <td>Designer</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
