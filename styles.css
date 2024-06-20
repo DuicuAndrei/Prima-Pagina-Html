@@ -1,5 +1,8 @@
 .style {
-  background-color: rgb(8, 7, 7);
+  background-image: url("istockphoto-1407063872-1024x1024.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: rgb(255, 255, 255);
 }
 .navigation {
